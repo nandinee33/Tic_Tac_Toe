@@ -99,6 +99,22 @@ public class main {
                         k--;
                     }
 
+                    if ((arr[0][1] == 'X' && arr[0][2] == 'X' && arr[0][3] == 'X') ||
+                            (arr[1][1] == 'X' && arr[1][2] == 'X' && arr[1][3] == 'X') ||
+                            (arr[2][1] == 'X' && arr[2][2] == 'X' && arr[2][3] == 'X') ||
+                            (arr[0][1] == 'X' && arr[1][1] == 'X' && arr[2][1] == 'X') ||
+                            (arr[0][2] == 'X' && arr[1][2] == 'X' && arr[2][2] == 'X') ||
+                            (arr[0][3] == 'X' && arr[1][3] == 'X' && arr[2][3] == 'X') ||
+                            (arr[0][1] == 'X' && arr[1][2] == 'X' && arr[2][3] == 'X') ||
+                            (arr[2][1] == 'X' && arr[1][2] == 'X' && arr[0][3] == 'X')) {
+                        System.out.println();
+                        System.out.print("########## CONGRATULATIONS ");
+                        System.out.print(abc);
+                        System.out.println(" ##########");
+                        player1++;
+                        System.out.println();
+
+                    }
                 }
             }
         }
