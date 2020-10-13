@@ -72,6 +72,9 @@ public class main {
                         System.out.print(player2 + " : ");
                     }
 
+                    System.out.print("Coordinates :->> ");
+                    int a = sc.nextInt();
+                    int b = sc.nextInt();
 
                 }
             }
