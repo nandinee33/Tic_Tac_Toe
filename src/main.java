@@ -77,7 +77,21 @@ public class main {
                     int b = sc.nextInt();
 
                     if (a > 0 && b > 0 && a < 4 && b < 4) {
-
+                        if (arr[2 - (b - 1)][a] == ' ') {
+                            arr[2 - (b - 1)][a] = ch;
+                            count++;
+                            System.out.println("---------");
+                            for (int p = 0; p < 3; p++) {
+                                for (int q = 0; q < 5; q++) {
+                                    System.out.print(arr[p][q] + " ");
+                                }
+                                System.out.println();
+                            }
+                            System.out.println("---------");
+                        } else {
+                            System.out.println("******** The coordinates were already entered, please enter again ********");
+                            k--;
+                        }
                     } else {
                         System.out.println();
                         System.out.println(" ******** You have Entered wrong coordinates, please enter again ********");
