@@ -33,13 +33,16 @@ public class main {
         String str2 = str1.toUpperCase();
         if (str2.length() == 1 && str2.charAt(0) == 'Y') {
             System.out.println();
+
             System.out.print("PLAYER 1 NAME : ");
             String abc = sc.nextLine();
             System.out.println();
+
             System.out.print("PLAYER 2 NAME : ");
             String xyz = sc.nextLine();
             System.out.println();
             System.out.println();
+
             System.out.print("Chances : ");
             int s = sc.nextInt();
 
@@ -210,7 +213,6 @@ public class main {
                 System.out.println();
                 System.out.println("Conclusion : Game TIED");
             }
-
         }
     }
 }
