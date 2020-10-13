@@ -60,6 +60,20 @@ public class main {
                 }
                 System.out.println("---------");
 
+                for (int k = 0; k < 9; k++) {
+                    System.out.println();
+                    count = count % 2;
+                    int x = count + 1;
+                    if (count == 0) {
+                        ch = 'X';
+                        System.out.print(player1 + " : ");
+                    } else {
+                        ch = '0';
+                        System.out.print(player2 + " : ");
+                    }
+
+
+                }
             }
         }
     }
