@@ -76,6 +76,7 @@ public class main {
                     int a = sc.nextInt();
                     int b = sc.nextInt();
 
+                    // check for the correct coordinates
                     if (a > 0 && b > 0 && a < 4 && b < 4) {
                         if (arr[2 - (b - 1)][a] == ' ') {
                             arr[2 - (b - 1)][a] = ch;
