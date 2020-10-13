@@ -168,6 +168,13 @@ public class main {
                         System.out.println();
                         break;
                     }
+
+                    if (k == 8) {
+                        System.out.println();
+                        System.out.println("########## CONGRATULATIONS IT WAS A TIE ##########");
+                        System.out.println();
+                        System.out.println();
+                    }
                 }
             }
         }
