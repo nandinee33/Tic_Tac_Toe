@@ -46,6 +46,10 @@ public class main {
             for (int r = 0; r < s; r++) {
                 int count = 0;
                 char[][] arr = {{'|', ' ', ' ', ' ', '|'}, {'|', ' ', ' ', ' ', '|'}, {'|', ' ', ' ', ' ', '|'}};
+                System.out.println("                           " + "----------------------");
+                System.out.println("                           " + "WELCOME TO Tic-Tac-Toe");
+                System.out.println("                           " + "----------------------");
+                System.out.println("GAME RULE : Always enter two space separated single digit coordinates.");
 
 
             }
