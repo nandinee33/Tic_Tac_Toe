@@ -195,6 +195,13 @@ public class main {
                     }
                 }
             }
+
+            if (player2 < player1) {
+                System.out.println();
+                System.out.print("Conclusion : Hurrah! ");
+                System.out.print(abc);
+                System.out.println(" Wins the Game");
+            }
         }
     }
 }
