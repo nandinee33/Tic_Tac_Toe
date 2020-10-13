@@ -133,6 +133,22 @@ public class main {
                         System.out.println();
                         break;
                     }
+
+                    if ((arr[0][1] == '0' && arr[0][2] == '0' && arr[0][3] == '0') ||
+                            (arr[1][1] == '0' && arr[1][2] == '0' && arr[1][3] == '0') ||
+                            (arr[2][1] == '0' && arr[2][2] == '0' && arr[2][3] == '0') ||
+                            (arr[0][1] == '0' && arr[1][1] == '0' && arr[2][1] == '0') ||
+                            (arr[0][2] == '0' && arr[1][2] == '0' && arr[2][2] == '0') ||
+                            (arr[0][3] == '0' && arr[1][3] == '0' && arr[2][3] == '0') ||
+                            (arr[0][1] == '0' && arr[1][2] == '0' && arr[2][3] == '0') ||
+                            (arr[2][1] == '0' && arr[1][2] == '0' && arr[0][3] == '0')) {
+                        System.out.println();
+                        System.out.print("########## CONGRATULATIONS ");
+                        System.out.print(xyz);
+                        System.out.println(" ##########");
+                        player2++;
+                        System.out.println();
+                    }
                 }
             }
         }
