@@ -42,7 +42,13 @@ public class main {
             System.out.println();
             System.out.print("Chances : ");
             int s = sc.nextInt();
-        }
 
+            for (int r = 0; r < s; r++) {
+                int count = 0;
+                char[][] arr = {{'|', ' ', ' ', ' ', '|'}, {'|', ' ', ' ', ' ', '|'}, {'|', ' ', ' ', ' ', '|'}};
+
+
+            }
+        }
     }
 }
