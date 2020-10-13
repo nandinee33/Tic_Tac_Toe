@@ -148,6 +148,25 @@ public class main {
                         System.out.println(" ##########");
                         player2++;
                         System.out.println();
+
+                        System.out.println("           ----------------");
+                        System.out.println("              SCOREBOARD");
+                        System.out.println("           ----------------");
+                        int o = r + 1;
+                        System.out.print("             ");
+                        System.out.print(abc);
+                        System.out.print(" : " + player1);
+                        System.out.print("/" + o);
+                        System.out.println();
+                        System.out.println();
+                        System.out.print("             ");
+                        System.out.print(xyz);
+                        System.out.print(" : " + player2);
+                        System.out.print("/" + o);
+                        System.out.println();
+                        System.out.println();
+                        System.out.println();
+                        break;
                     }
                 }
             }
