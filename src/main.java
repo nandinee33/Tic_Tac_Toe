@@ -76,6 +76,14 @@ public class main {
                     int a = sc.nextInt();
                     int b = sc.nextInt();
 
+                    if (a > 0 && b > 0 && a < 4 && b < 4) {
+
+                    } else {
+                        System.out.println();
+                        System.out.println(" ******** You have Entered wrong coordinates, please enter again ********");
+                        k--;
+                    }
+
                 }
             }
         }
