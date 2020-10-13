@@ -174,6 +174,24 @@ public class main {
                         System.out.println("########## CONGRATULATIONS IT WAS A TIE ##########");
                         System.out.println();
                         System.out.println();
+
+                        System.out.println("           ----------------");
+                        System.out.println("              SCOREBOARD");
+                        System.out.println("           ----------------");
+                        int g = r + 1;
+                        System.out.print("             ");
+                        System.out.print(abc);
+                        System.out.print(" : " + player1);
+                        System.out.print("/" + g);
+                        System.out.println();
+                        System.out.print("             ");
+                        System.out.print(xyz);
+                        System.out.print(" : " + player2);
+                        System.out.print("/" + g);
+                        System.out.println();
+                        System.out.println();
+                        System.out.println();
+                        break;
                     }
                 }
             }
