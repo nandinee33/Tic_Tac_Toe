@@ -114,6 +114,24 @@ public class main {
                         player1++;
                         System.out.println();
 
+                        System.out.println("           ----------------");
+                        System.out.println("              SCOREBOARD");
+                        System.out.println("           ----------------");
+                        int e = r + 1;
+                        System.out.print("             ");
+                        System.out.print(abc);
+                        System.out.print(" : " + player1);
+                        System.out.print("/" + e);
+                        System.out.println();
+                        System.out.println();
+                        System.out.print("             ");
+                        System.out.print(xyz);
+                        System.out.print(" : " + player2);
+                        System.out.print("/" + e);
+                        System.out.println();
+                        System.out.println();
+                        System.out.println();
+                        break;
                     }
                 }
             }
