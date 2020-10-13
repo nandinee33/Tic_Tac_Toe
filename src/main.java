@@ -206,6 +206,9 @@ public class main {
                 System.out.print("Conclusion : Hurrah! ");
                 System.out.print(xyz);
                 System.out.println(" Wins the Game");
+            } else {
+                System.out.println();
+                System.out.println("Conclusion : Game TIED");
             }
 
         }
