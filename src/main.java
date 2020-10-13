@@ -40,6 +40,8 @@ public class main {
             String xyz = sc.nextLine();
             System.out.println();
             System.out.println();
+            System.out.print("Chances : ");
+            int s = sc.nextInt();
         }
 
     }
