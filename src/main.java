@@ -16,11 +16,11 @@ public class main {
         char ch;
 
         System.out.println();
-        System.out.print("                                                    " + "                           " + "--------------------------------------");
+        System.out.print("                                                    " + "                           " + "-------------------------");
         System.out.println();
-        System.out.print("                                                    " + "                           " + "WELCOME TO THE MY GAME ZONE");
+        System.out.print("                                                    " + "                           " + "WELCOME TO THE GAME ZONE");
         System.out.println();
-        System.out.print("                                                    " + "                           " + "--------------------------------------");
+        System.out.print("                                                    " + "                           " + "-------------------------");
         System.out.println();
         System.out.println();
         System.out.println();
